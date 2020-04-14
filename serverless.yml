@@ -32,7 +32,7 @@ custom:
       # Users can define these parameters in SSM (they will be looked up at deploy time)
       # or in the deploy environment or inline
       - "${ssm:${SUBNET ID}~true}"
-      ...
+      # ...
     securityGroupIds:
       # Users can define this parameter in SSM (it will be looked up at deploy time)
       # or in the deploy environment or inline
